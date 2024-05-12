@@ -3,8 +3,10 @@ import blog2 from "@/public/assets/blogsimages/blog2-partners.jpg";
 import blog3 from "@/public/assets/blogsimages/blog3-snapchat.jpg";
 
 export const BlogsSectionData = {
-  heading: "Our recent blogs",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  heading: {
+    title: "Our recent blogs",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  },
   populerBlogs: [
     {
       title: "The Snap Pixel: How It Works and How to Install ",

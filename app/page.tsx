@@ -6,19 +6,20 @@ import HeroSection from "@/components/HeroSection";
 import InterfaceSection from "@/components/InterfaceSection";
 import ShowcaseSection from "@/components/ShowcaseSection";
 import TeamsSections from "@/components/TeamsSections";
-import Image from "next/image";
+
+import TestimonialSection from "@/components/TestimonialSection";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center">
-      {/* <h1>Hii</h1> */}
       <HeroSection />
       <AboutSection />
       <FeaturesSection />
       <InterfaceSection />
-      <DownloadSection />
       <ShowcaseSection />
+      <DownloadSection />
       <TeamsSections />
+      <TestimonialSection />
       <BlogsSection />
     </main>
   );

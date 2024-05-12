@@ -7,8 +7,10 @@ import maletelemarketer from "@/public/assets/appfeatures/maletelemarketer.svg";
 import vector from "@/public/assets/appfeatures/vector.svg";
 
 export const FeaturesSectionData = {
-  heading: "App features",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  heading: {
+    title: "App features",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  },
   featuresMockup: FeaturesMockup,
   featuresList1: [
     {

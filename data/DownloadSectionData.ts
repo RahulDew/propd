@@ -5,8 +5,10 @@ import LikesIcon from "@/public/assets/downloadicons/LikeIcon.svg";
 import StarsIcon from "@/public/assets/downloadicons/StarIcon.svg";
 
 export const DownloadSectionData = {
-  heading: "Download PropDeal Now",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  heading: {
+    title: "Download PropDeal Now",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  },
   downloadStores: [
     { buttonIcon: GooglePlayIcon, status: "GET IT ON", from: "Google Play" },
     { buttonIcon: AppStoreIcon, status: "COMMING SOON", from: "App Store" },

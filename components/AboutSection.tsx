@@ -1,6 +1,6 @@
 import { AboutSectionData } from "@/data/AboutSectionData";
-import { FeaturesSectionData } from "@/data/FeaturesSectionData";
 import Image from "next/image";
+import Heading from "./ui/Heading";
 
 const AboutSection = () => {
   return (
@@ -8,15 +8,10 @@ const AboutSection = () => {
       id="about"
       className="w-full text-center space-y-10 py-16 px-5 md:px-16"
     >
-      <h2 className="text-3xl md:text-4xl font-bold">
-        {AboutSectionData.heading}
-      </h2>
-      <p className="text-base font-light m-auto md:w-8/12 text-secondary">
-        {AboutSectionData.desc}
-      </p>
+      <Heading headingData={AboutSectionData.heading} />
 
-      <div className="flex justify-center items-center gap-40">
-        <div className="w-2/6 space-y-5">
+      <div className="flex justify-around items-center gap-5 max-md:flex-col-reverse">
+        <div className="w-[350px] lg:w-[480px] space-y-5">
           {AboutSectionData.aboutList.map((about, index) => (
             <div
               key={index}

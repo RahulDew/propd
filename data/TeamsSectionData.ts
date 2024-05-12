@@ -4,8 +4,10 @@ import GithubIcon from "@/public/assets/socialicons/github.svg";
 import member from "@/public/assets/teams/member.jpg";
 
 export const TeamsSectionData = {
-  heading: "Our reative team",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  heading: {
+    title: "Our reative team",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  },
   members: [
     {
       name: "Carla Press",
@@ -15,17 +17,17 @@ export const TeamsSectionData = {
         {
           name: "Linkedin",
           icon: LinkedinIcon,
-          link: "",
+          link: "/",
         },
         {
           name: "Github",
           icon: GithubIcon,
-          link: "",
+          link: "/",
         },
         {
           name: "Instagram",
           icon: InstagramIcon,
-          link: "",
+          link: "/",
         },
       ],
     },
@@ -37,17 +39,17 @@ export const TeamsSectionData = {
         {
           name: "Linkedin",
           icon: LinkedinIcon,
-          link: "",
+          link: "/",
         },
         {
           name: "Github",
           icon: GithubIcon,
-          link: "",
+          link: "/",
         },
         {
           name: "Instagram",
           icon: InstagramIcon,
-          link: "",
+          link: "/",
         },
       ],
     },
@@ -59,17 +61,17 @@ export const TeamsSectionData = {
         {
           name: "Linkedin",
           icon: LinkedinIcon,
-          link: "",
+          link: "/",
         },
         {
           name: "Github",
           icon: GithubIcon,
-          link: "",
+          link: "/",
         },
         {
           name: "Instagram",
           icon: InstagramIcon,
-          link: "",
+          link: "/",
         },
       ],
     },

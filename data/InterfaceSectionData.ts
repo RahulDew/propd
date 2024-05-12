@@ -5,8 +5,10 @@ import interface004 from "@/public/assets/appinterface/004.png";
 import interface005 from "@/public/assets/appinterface/005.png";
 
 export const InterfaceSectionData = {
-  heading: "Checkout Our App Interface Look",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  heading: {
+    title: "Checkout Our App Interface Look",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  },
   interfaceList: [
     {
       name: "interface001",
