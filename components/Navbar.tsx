@@ -3,6 +3,7 @@ import Link from "next/link";
 import MobileNav from "./MobileNav";
 import { NavbarData } from "@/data/NavbarData";
 import CalScheduler from "./CalSheduler";
+import { NavLinks } from "./NavLinks";
 
 export default function Navbar() {
   return (
@@ -22,19 +23,7 @@ export default function Navbar() {
             {NavbarData.logoName}
           </p>
         </Link>
-        <div className="hidden md:flex justify-center items-center gap-2 lg:gap-5 bg-white shadow-2xl text-sm lg:text-base p-1.5 px-2 rounded-full">
-          {NavbarData.navLinks.map((navLink, index) => (
-            <Link
-              key={index}
-              href={navLink.link}
-              className={`${
-                navLink.name === "Home" && "bg-primary text-white"
-              } w-[80px] lg:w-[100px] text-center  p-1.5 px-2 rounded-full hover:text-primary duration-300`}
-            >
-              {navLink.name}
-            </Link>
-          ))}
-        </div>
+        <NavLinks links={NavbarData.navLinks} /> 
         {/* <Link
           href={NavbarData.downloadLink.link}
           className="hidden md:block bg-white shadow-2xl shadow-neutral-500 text-primary hover:bg-primary hover:text-white px-2.5 py-2 rounded-full duration-300"
