@@ -7,7 +7,7 @@ import interface005 from "@/public/assets/appinterface/005.png";
 export const InterfaceSectionData = {
   heading: {
     title: "Checkout Our App Interface Look",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+    desc: "PropDeal  is a swiss army knife for Real estate professional: CLEAN,  SIMPLE. & Effective, Designed for the ease of use for real estate professionals",
   },
   interfaceList: [
     {

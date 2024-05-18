@@ -23,13 +23,8 @@ export default function Navbar() {
             {NavbarData.logoName}
           </p>
         </Link>
-        <NavLinks links={NavbarData.navLinks} /> 
-        {/* <Link
-          href={NavbarData.downloadLink.link}
-          className="hidden md:block bg-white shadow-2xl shadow-neutral-500 text-primary hover:bg-primary hover:text-white px-2.5 py-2 rounded-full duration-300"
-        >
-          {NavbarData.downloadLink.data}
-        </Link> */}
+        <NavLinks links={NavbarData.navLinks} />
+
         {/* CalCom sheduler */}
         <CalScheduler />
       </div>

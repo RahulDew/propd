@@ -15,7 +15,7 @@ const AboutSection = () => {
           {AboutSectionData.aboutList.map((about, index) => (
             <div
               key={index}
-              className="flex gap-2 justify-start items-start flex-col shadow-2xl p-5 rounded-xl"
+              className="flex gap-2 justify-start items-start flex-col shadow-xl hover:shadow-blue-200 p-5 rounded-xl duration-300"
             >
               <div className="flex justify-start items-center gap-2">
                 <Image
@@ -39,7 +39,7 @@ const AboutSection = () => {
             src={AboutSectionData.AboutMockup}
             alt="Shadient.co Logo"
             priority
-            width={350}
+            width={370}
           />
         </div>
       </div>

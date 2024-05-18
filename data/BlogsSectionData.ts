@@ -1,27 +1,27 @@
-import blog1 from "@/public/assets/blogsimages/blog1-snap.jpg";
-import blog2 from "@/public/assets/blogsimages/blog2-partners.jpg";
-import blog3 from "@/public/assets/blogsimages/blog3-snapchat.jpg";
+import blog1 from "@/public/assets/blogsimages/blog-city.jpg";
+import blog2 from "@/public/assets/blogsimages/blog-empire.jpg";
+import blog3 from "@/public/assets/blogsimages/blog-skyscrapers.jpg";
 
 export const BlogsSectionData = {
   heading: {
     title: "Our recent blogs",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+    desc: "",
   },
   populerBlogs: [
     {
-      title: "The Snap Pixel: How It Works and How to Install ",
+      title: "Ultimate Guide: 11 Points to Writing a Real Estate Business Plan",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.z",
       image: blog1,
       link: "/",
     },
     {
-      title: "Global Partner Solutions: A Partnership of Innovation",
+      title: "How to Create Customer Personas for Real Estate Marketing",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.z",
       image: blog2,
       link: "/",
     },
     {
-      title: "2021: An opportunity for Snapchatters to start fresh",
+      title: "Increasing Real Estate sales 10x using Digital Marketing?",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.z",
       image: blog3,
       link: "/",

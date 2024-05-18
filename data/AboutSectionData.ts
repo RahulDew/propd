@@ -4,22 +4,26 @@ import AboutMockup from "@/public/assets/about-mockup.png";
 export const AboutSectionData = {
   heading: {
     title: "About Our App",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+    desc: "Prop Deal is a comprehensive CRM software for real estate professionals, offering solutions for property management, sales, finances, and customer relationships. From overseeing presales to post-sale follow-ups and financial assistance, Prop Deal streamlines every aspect of the real estate journey.",
   },
   AboutMockup,
   checkIcon: CheckboxIcon,
   aboutList: [
     {
-      title: "CREATIVE DESIGN",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.",
+      title: "Free App*",
+      desc: "Finally! A free app for real estate professionals that you’ll love to use.",
     },
     {
-      title: "EASY TO USE",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.",
+      title: "Custom made for real estate",
+      desc: "Designed speficialy for real  estate professionals keeping  in th mind  the pain ponints.",
     },
     {
-      title: "BEST USER EXPERINCE",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.",
+      title: "Quick Onboarding",
+      desc: "Our team will lead you every step of the way to make a swift on-boarding with your sales and marketing team.",
+    },
+    {
+      title: "Free Consultation and Personal Traning",
+      desc: "To understand the unique challenges and characteristics of your operation. We provide extensive software training so that your team can make the most out of our CRM.",
     },
   ],
 };

@@ -16,14 +16,16 @@ export default function ContactCard({
 }) {
   return (
     <>
-      <div className="flex justify-center items-center gap-5">
-        <Image
-          src={contactData.icon}
-          alt={contactData.altName}
-          priority
-          width={60}
-          className="max-lg:w-[40px]"
-        />
+      <div className="flex justify-center items-center gap-5 hover:text-primary duration-300">
+        <div className="w-[60px] h-[60px] bg-primary p-2 rounded-full flex justify-center items-center">
+          <Image
+            src={contactData.icon}
+            alt={contactData.altName}
+            priority
+            width={25}
+          />
+        </div>
+
         <p className="lg:text-xl">{contactData.data}</p>
       </div>
       {initial && (

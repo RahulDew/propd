@@ -19,8 +19,8 @@ const Footer = () => {
 
       {/* Footer */}
       <div className="flex justify-start sm:justify-around max-lg:flex-col my-5 px-10 md:px-16">
-        <div className="flex justify-around col-row-span-2 flex-col lg:flex-row gap-10">
-          <div className="w-full flex gap-10 justify-center items-center md:justify-around flex-col md:flex-row">
+        <div className="flex justify-around col-row-span-2 flex-col lg:flex-row gap-10 md:mr-8">
+          <div className="w-full flex gap-10 justify-center items-center md:justify-around md:items-start flex-col md:flex-row">
             {/* Product description */}
             <div className="space-y-5 w-5/6 md:w-[300px] flex flex-col justify-center md:justify-start items-center md:items-start">
               <Link href={"/"} className="flex gap-2 rounded-md">
@@ -37,23 +37,24 @@ const Footer = () => {
                 {FooterData.description}
               </p>
               {/* Social icons */}
-              <div className="flex justify-start items-start flex-wrap gap-10">
-                {FooterData.socialMediaIcons.map((icon, index) => (
-                  <div
+              <div className="flex justify-start items-start flex-wrap gap-10 invert">
+                {FooterData.socialMediaIcons.map((link, index) => (
+                  <Link
+                    href={link.link}
                     key={index}
                     className="flex justify-center items-center text-left"
                   >
                     <Image
-                      src={icon.icon}
-                      alt={icon.name}
+                      src={link.icon}
+                      alt={link.name}
                       priority
-                      className="max-md:w-7 w-8"
+                      width={link.size}
                     />
-                    {/* <div className="w-0.5 h-8 bg-white"></div> */}
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>
+
             {/* Links */}
             <div className="flex gap-10 justify-center items-center flex-wrap text-center md:text-left">
               {/* Quick links */}
@@ -62,7 +63,13 @@ const Footer = () => {
 
                 <div className="flex flex-col gap-2">
                   {FooterData.quickLinks.map((link, index) => (
-                    <span key={index}>{link.link}</span>
+                    <Link
+                      href={link.link}
+                      key={index}
+                      className="hover:text-primary duration-300"
+                    >
+                      {link.name}
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -72,7 +79,12 @@ const Footer = () => {
 
                 <div className="flex flex-col gap-2">
                   {FooterData.policyLinks.map((link, index) => (
-                    <span key={index}>{link.link}</span>
+                    <span
+                      key={index}
+                      className="hover:text-primary duration-300"
+                    >
+                      {link.link}
+                    </span>
                   ))}
                 </div>
               </div>
@@ -80,13 +92,18 @@ const Footer = () => {
           </div>
 
           {/* Origin */}
-          <div className="w-5/6 lg:w-3/6 mx-auto space-y-5 text-center lg:text-left">
-            <Link href={FooterData.Origin.originLink} target="_blank">
-              <h4 className="font-semibold text-3xl">
+          <div className="w-5/6 lg:w-5/12 mx-auto space-y-5 text-center lg:text-left">
+            <h3 className="font-extralight text-lg mb-5">Created By</h3>
+            <Link
+              href={FooterData.Origin.originLink}
+              target="_blank"
+              className="hover:text-primary space-y-3 duration-300"
+            >
+              <h4 className="font-semibold text-2xl ">
                 {FooterData.Origin.createdBy}
               </h4>
+              <p className="opacity-60">{FooterData.Origin.originDesc}</p>
             </Link>
-            <p className="opacity-60">{FooterData.Origin.originDesc}</p>
           </div>
         </div>
       </div>

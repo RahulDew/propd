@@ -1,9 +1,9 @@
-import { AboutSectionData } from "@/data/AboutSectionData";
-import { DownloadSectionData } from "@/data/DownloadSectionData";
 import Image from "next/image";
 import React from "react";
 import DownloadBtn from "./ui/DownloadBtn";
 import Heading from "./ui/Heading";
+
+import { DownloadSectionData } from "@/data/DownloadSectionData";
 
 const DownloadSection = () => {
   return (
@@ -31,7 +31,7 @@ const DownloadSection = () => {
                 alt="PropDeal logo"
                 priority
                 width={30}
-                className=""
+                className="invert"
               />
               <span className="">{item.numbers}</span>
               <p className="text-lg md:text-2xl">{item.name}</p>

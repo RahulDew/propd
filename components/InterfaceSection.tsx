@@ -1,11 +1,5 @@
 import { InterfaceSectionData } from "@/data/InterfaceSectionData";
-
-// import "swiper/css";
-// import "swiper/css/effect-coverflow";
-// import "swiper/css/pagination";
-// import "swiper/css/navigation";
 import Heading from "./ui/Heading";
-import SwiperSlider from "./SwiperSlider";
 import Slider from "./widgets/Slider";
 import Image from "next/image";
 
@@ -17,15 +11,18 @@ const InterfaceSection = () => {
     >
       <Heading headingData={InterfaceSectionData.heading} />
 
-      {/* <SwiperSlider /> */}
-      <Slider>
+      <Slider className="pb-14">
         {InterfaceSectionData.interfaceList.map((item, index) => (
-          <div key={index} className="hover:shadow-2xl hover:shadow-blue-300 duration-300">
+          <div
+            key={index}
+            className="hover:shadow-2xl hover:shadow-blue-300 rounded-3xl duration-300"
+          >
             <Image
               src={item.interfaceImg}
               alt="slide_image_2"
               priority
               width={220}
+              className=" w-[170px] md:w-[220px] rounded-2xl"
             />
           </div>
         ))}

@@ -1,49 +1,50 @@
 import FeaturesMockup from "@/public/assets/appfeatures/FeaturesMockup.png";
-import browser from "@/public/assets/appfeatures/browser.svg";
-import cellphone from "@/public/assets/appfeatures/cellphone.svg";
-import comment from "@/public/assets/appfeatures/comment.svg";
-import eyescanner from "@/public/assets/appfeatures/eyescanner.svg";
-import maletelemarketer from "@/public/assets/appfeatures/maletelemarketer.svg";
-import vector from "@/public/assets/appfeatures/vector.svg";
+
+import AutoDialAutoSave from "@/public/assets/appfeatures/auto-dial-auto-save.svg";
+import AutomationForReptitiveTask from "@/public/assets/appfeatures/automation-for-reptitive-task.svg";
+import LeadManagement from "@/public/assets/appfeatures/lead-management.svg";
+import PropertyManagement from "@/public/assets/appfeatures/property-management.svg";
+import ReminderAndPushNotification from "@/public/assets/appfeatures/reminder-and-push-notification.svg";
+import SalesAnalysis from "@/public/assets/appfeatures/sales-analysis.svg";
 
 export const FeaturesSectionData = {
   heading: {
     title: "App features",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+    desc: "The most simplified android crm app designed for real estate professionals. Now you can track leads, follow-ups and increase your conversions.",
   },
   featuresMockup: FeaturesMockup,
   featuresList1: [
     {
-      icon: comment,
-      title: "Full free chat",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: LeadManagement,
+      title: "Lead Management",
+      desc: "Take charge of your leads with our all-in-one platform. From assigning leads and setting priorities to viewing lead history, you can track and manage everything easily.",
     },
     {
-      icon: cellphone,
-      title: "iso & androind version",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: PropertyManagement,
+      title: "Property Management",
+      desc: "Our feature-packed CRM is designed to simplify property tracking, maintenance, and client interactions, allowing you to focus on what you do best – real estate transactions.",
     },
     {
-      icon: eyescanner,
-      title: "retina ready greaphics",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: SalesAnalysis,
+      title: "Sales Analysis",
+      desc: "Get powerful insights from your data. Make smart decisions and boost your success in the competitive real estate market.",
     },
   ],
   featuresList2: [
     {
-      icon: maletelemarketer,
-      title: "24/7 support by real",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: AutomationForReptitiveTask,
+      title: "Automation for Repetitive Tasks",
+      desc: "Let your team focus on important work while we handle the repetitive tasks: Welcome Message, Lead Assignment, Scheduling, WhatsApp Automation",
     },
     {
-      icon: vector,
-      title: "awsome ui design",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: AutoDialAutoSave,
+      title: "Auto Dialer and Auto Save",
+      desc: "Make more calls with our automated calling process, increasing call attempts by up to 200%. Choose from status-based calling, click-to-dial. Auto-save client info from your business SIM card.",
     },
     {
-      icon: browser,
-      title: "unlimiter features",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: ReminderAndPushNotification,
+      title: "Reminders and Push Notifications",
+      desc: "Set reminders to follow up with your clients, ensuring you never miss an opportunity.",
     },
   ],
 };

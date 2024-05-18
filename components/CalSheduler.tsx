@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import Cal, { getCalApi } from "@calcom/embed-react";
+import { getCalApi } from "@calcom/embed-react";
 import CalanderIcon from "@/public/assets/calander.svg";
 import Image from "next/image";
 
@@ -17,19 +17,13 @@ const CalScheduler = () => {
         hideEventTypeDetails: false,
         layout: "month_view",
         cssVarsPerTheme: {
-          light: {
-            "cal-brand": "#1D5BB6",
-          },
+          light: { "cal-brand": "#1D5BB6" },
+          dark: { "cal-brand": "#1D5BB6" },
         },
       });
     })();
   }, []);
   return (
-    // <Cal
-    //   calLink="dhiraj-jaiswal-v13yvu/30min"
-    //   style={{ width: "100%", height: "100%", overflow: "scroll" }}
-    //   config={{ layout: "month_view" }}
-    // />
     <button
       data-cal-link={calLink}
       className="max-md:mr-12 bg-secondary py-2.5 px-4 rounded-full text-white font-semibold flex justify-center items-center gap-2"

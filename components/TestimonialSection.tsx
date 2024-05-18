@@ -28,7 +28,7 @@ const TestimonialSection = () => {
               <div>
                 <span className="text-sm font-bold">{Testimonial.name}</span>
                 <p className="text-sm text-left opacity-60">
-                  {Testimonial.occupation}
+                  {Testimonial.from}
                 </p>
               </div>
             </div>

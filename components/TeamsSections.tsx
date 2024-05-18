@@ -35,8 +35,8 @@ const TeamsSections = () => {
                     src={link.icon}
                     alt={link.name}
                     priority
-                    width={25}
-                    className="grayscale"
+                    width={link.size}
+                    className="opacity-60 hover:opacity-100 duration-300"
                   />
                 </Link>
               ))}

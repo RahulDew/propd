@@ -16,16 +16,17 @@ const FeaturesSection = () => {
           priority
           src={FeaturesSectionData.featuresMockup}
           alt="Features"
-          width={230}
+          width={250}
           className="shadow-2xl max-lg:w-[190px]"
         />
       </div>
+
       <div className="flex justify-center items-center flex-wrap gap-5 md:gap-10">
-        <div className="w-56 space-y-10">
+        <div className="w-56 space-y-5">
           {FeaturesSectionData.featuresList1.map((feature, index) => (
             <div
               key={index}
-              className="flex gap-2 justify-center md:justify-end items-center md:items-end flex-col rounded-xl"
+              className="h-56 flex gap-2 justify-start md:justify-start items-center md:items-end flex-col rounded-xl"
             >
               <Image
                 priority
@@ -35,25 +36,29 @@ const FeaturesSection = () => {
                 height={30}
                 className="shadow-2xl"
               />
-              <span className="font-semibold">{feature.title}</span>
+              <span className="md:text-right font-semibold">
+                {feature.title}
+              </span>
               <p className="md:text-right font-light text-sm">{feature.desc}</p>
             </div>
           ))}
         </div>
+        {/* Features mockup */}
         <div className="hidden md:block">
           <Image
             priority
             src={FeaturesSectionData.featuresMockup}
             alt="Features"
-            width={230}
-            className="shadow-2xl max-lg:w-[190px]"
+            width={250}
+            className="shadow-2xl hover:shadow-blue-300 max-lg:w-[190px] rounded-2xl"
           />
         </div>
-        <div className="w-56 space-y-10">
+        {/* 2nd featureList */}
+        <div className="w-56 space-y-5">
           {FeaturesSectionData.featuresList2.map((feature, index) => (
             <div
               key={index}
-              className="flex gap-2 justify-center md:justify-start items-center md:items-start flex-col rounded-xl"
+              className="h-56 flex gap-2 justify-start md:justify-start items-center md:items-start flex-col rounded-xl"
             >
               <Image
                 priority
@@ -63,7 +68,9 @@ const FeaturesSection = () => {
                 height={30}
                 className="shadow-2xl"
               />
-              <span className="font-semibold">{feature.title}</span>
+              <span className="md:text-left font-semibold">
+                {feature.title}
+              </span>
               <p className="md:text-left font-light text-sm">{feature.desc}</p>
             </div>
           ))}

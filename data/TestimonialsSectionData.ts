@@ -21,31 +21,45 @@ export const TestimonialSectionData = {
   testimonialList: [
     {
       ProfileImg: BrooklynSimmons,
-      name: "Brooklyn Simmons",
-      occupation: "manam",
+      name: "Dhanraj Maheshwari",
+      from: "Universal Infra.",
       testimonial:
-        "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci.",
+        "Prop Deal has made it easier for our team before sales, helping us track activities and arrange more site visits efficiently.",
     },
     {
       ProfileImg: EstherHoward,
-      name: "Esther Howard",
-      occupation: "Offmax",
+      name: "Muskan Bharti",
+      from: "Bhumi Buildcon",
       testimonial:
-        "Vitae tellus bibendum nibh integer auctor pretium sed. Sollicitudin tristique euismod elit.",
+        "The best thing about Prop Deal is that it helps us predict our sales for the next few months. With its reports on leads, we can plan better.",
     },
     {
       ProfileImg: ArleneMcCoy,
-      name: "Arlene McCoy",
-      occupation: "bloopixel",
+      name: "Badrilal Rajput",
+      from: "KK Infratech",
       testimonial:
-        "Eu eu eget lorem commodo sagittis enim in viverra. Urna egestas ipsum gravida tempor. Libero, consectetur urna in enim magnis. Est.",
+        "Prop Deal's campaign reports have given us better insights into our marketing efforts. Our campaigns have been more successful, leading to improved sales overall.",
     },
     {
       ProfileImg: JaneCooper,
-      name: "Jane Cooper",
-      occupation: "unpexel",
+      name: "Madhu Bhutada",
+      from: "Rajshree Properties",
       testimonial:
-        "Amet aliquam, volutpat nisl, duis sed at. Vehicula proin consectetur risus dictumst nec amet consequat at tempus. Ornare dapibus nunc fames nibh morbi viverra eu sed mattis.",
+        "With Prop Deal, we can see all the leads from different campaigns in detail. It helps us manage all our sales and marketing activities in one place.",
+    },
+    {
+      ProfileImg: JaneCooper,
+      name: "Savita Goyal",
+      from: "Urban Assest",
+      testimonial:
+        "Prop Deal has made online booking smooth for our customers, improving their experience.",
+    },
+    {
+      ProfileImg: JaneCooper,
+      name: "Santosh Meena",
+      from: "Vinayak Infratech",
+      testimonial:
+        "Managing our properties has become much easier with Prop Deal! It's user-friendly and comes with great features that keep everything running smoothly.",
     },
   ],
 };

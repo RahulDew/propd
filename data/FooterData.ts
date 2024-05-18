@@ -1,27 +1,28 @@
 import logo from "@/public/assets/PropDealLogo.svg";
-import FacebookIcon from "@/public/assets/socialicons/facebook-fill.svg";
-import InstagramIcon from "@/public/assets/socialicons/instagram-fill.svg";
-import TwitterIcon from "@/public/assets/socialicons/twitter-fill.svg";
-import YoutubeIcon from "@/public/assets/socialicons/youtube-fill.svg";
+import FacebookIcon from "@/public/assets/socialicons/facebook.svg";
+import InstagramIcon from "@/public/assets/socialicons/instagram.svg";
+import XIcon from "@/public/assets/socialicons/x.svg";
+import Github from "@/public/assets/socialicons/github.svg";
 
-import CallIcon from "@/public/assets/contacticons/Call.svg";
-import EmailIcon from "@/public/assets/contacticons/Email Icon.svg";
+import CallIcon from "@/public/assets/contacticons/call.svg";
+import EmailIcon from "@/public/assets/contacticons/email.svg";
 
 export const FooterData = {
   logo: logo,
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.",
+    "Prop Deal was born out of the collaboration of innovative minds from real estate and technology,  determined to alleviate the challenges faced by real estate professionals",
   socialMediaIcons: [
-    { name: "Faceboook", icon: FacebookIcon },
-    { name: "Instagram", icon: InstagramIcon },
-    { name: "Twitter", icon: TwitterIcon },
-    { name: "Youtube", icon: YoutubeIcon },
+    { name: "Faceboook", icon: FacebookIcon, link: "/", size: 30 },
+    { name: "Instagram", icon: InstagramIcon, link: "/", size: 30 },
+    { name: "X", icon: XIcon, link: "/", size: 30 },
+    { name: "Github", icon: Github, link: "/", size: 35 },
   ],
   quickLinks: [
-    { link: "About" },
-    { link: "Features" },
-    { link: "Interface" },
-    { link: "Blog" },
+    { name: "Home", link: "/" },
+    { name: "About", link: "/#about" },
+    { name: "Features", link: "/#features" },
+    // { name: "Interface", link: "/#interface" },
+    { name: "Blogs", link: "/#blogs" },
   ],
   policyLinks: [
     { link: "Terms" },
@@ -30,15 +31,15 @@ export const FooterData = {
     { link: "Company" },
   ],
   Origin: {
-    createdBy: "Codecamber",
+    createdBy: "CodeCamber",
     originDesc:
-      "Solution for startups and scale ups to access the beset technology leadership on cost effective partnership basis. Follow us on Twitter. Custome Software Dev.",
+      "Solution for startups and scale ups to access the beset technology leadership on cost effective partnership basis.",
     originLink: "https://www.codecamber.com/",
   },
   contactDetails: [
     {
       icon: CallIcon,
-      data: "+880 321 655 9985",
+      data: "+91 6265004243",
       altName: "Contact Number",
     },
     {
